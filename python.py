@@ -7,5 +7,8 @@ def find_factorial_loop(n):
         factorial *= i
         
     return factorial
+if num<0:
+ print("no negative numbers")
+ exit()
 
 print(find_factorial_loop(5))  
